@@ -1,0 +1,7 @@
+services:
+  container_1:
+    build: ./task5
+  container_2:
+    build: ./task6
+    ports:
+    - "80:8080"
